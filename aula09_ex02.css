@@ -1,0 +1,58 @@
+*{
+	margin:0;
+	padding:0;
+}
+#topo{
+	margin: auto;
+	padding-top: 3%;
+	background: #dedede;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	
+}
+#titulo{
+	font-size: 2.0em;
+	font-weight: bold;
+}
+#conteudo{
+	margin: auto;
+	background: #efefef;
+	width: 80%;
+	height: 890px;
+}
+#caixa{
+	color: #eee;
+	position: relative;
+	background: #aaa;
+	margin:-54% 40%;
+	width:300px;
+	height:260px;
+	font-size:1.4em;
+	font-weight:bold;
+	border-radius:5px;
+
+}
+input[type=text],input[type=password]{
+	position: inherit;
+	margin: auto 1%;
+	width:286px;
+	height:30px;
+	font-size:1.2em;
+	border-radius:5px;
+}
+input[type=button],input[type=submit],input[type=reset]{
+	position: inherit;
+	margin: auto 1%;
+	width:290px;
+	height:30px;
+	color:#666;
+	font-size:1.1em;
+	font-weight:bold;
+	border-radius:5px;
+	
+}
+input[type=button]:hover,input[type=submit]:hover,input[type=reset]:hover{
+	color: #eee;
+	background: #666;
+}
